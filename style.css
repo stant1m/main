@@ -1,6 +1,6 @@
 @font-face {
   font-family: "TTLakes";
-  src: url(/src/fonts/TTLakes-Medium.ttf);
+  src: url(./fonts/TTLakes-Medium.ttf);
 }
 html {
   box-sizing: border-box;
@@ -118,7 +118,7 @@ body {
   border: #FF3E79 solid 2px;
   border-radius: 100px;
   background-color: #FF3E79;
-  background-image: url(/src/img/icons/burger.svg);
+  background-image: url(./static/burger.svg);
   background-position: center;
   background-repeat: no-repeat;
 }
@@ -153,7 +153,7 @@ body {
   border: #FF3E79 solid 2px;
   border-radius: 100px;
   background-color: #FF3E79;
-  background-image: url(/src/img/icons/phone.svg);
+  background-image: url(./static/phone.svg);
   background-position: center;
   background-repeat: no-repeat;
 }
@@ -177,7 +177,7 @@ body {
   border: #FF3E79 solid 2px;
   border-radius: 100px;
   background-color: #FF3E79;
-  background-image: url(/src/img/icons/chat.svg);
+  background-image: url(./static/chat.svg);
   background-position: center;
   background-repeat: no-repeat;
 }
@@ -188,7 +188,7 @@ body {
   border: #FF3E79 solid 2px;
   border-radius: 100px;
   background-color: #FF3E79;
-  background-image: url(/src/img/icons/profile.svg);
+  background-image: url(./static/profile.svg);
   background-position: center;
   background-repeat: no-repeat;
 }
@@ -211,7 +211,7 @@ body {
     border: #FF3E79 solid 2px;
     border-radius: 100px;
     background-color: #FF3E79;
-    background-image: url(/src/img/icons/repair.svg);
+    background-image: url(./static/repair.svg);
     background-position: center;
     background-repeat: no-repeat;
   }
@@ -224,7 +224,7 @@ body {
     border: #FF3E79 solid 2px;
     border-radius: 100px;
     background-color: #FF3E79;
-    background-image: url(/src/img/icons/repair.svg);
+    background-image: url(./static/repair.svg);
     background-position: center;
     background-repeat: no-repeat;
   }
@@ -237,7 +237,7 @@ body {
     border: #FF3E79 solid 2px;
     border-radius: 100px;
     background-color: #FF3E79;
-    background-image: url(/src/img/icons/checkstatus.svg);
+    background-image: url(./static/checkstatus.svg);
     background-position: center;
     background-repeat: no-repeat;
   }
@@ -250,7 +250,7 @@ body {
     border: #FF3E79 solid 2px;
     border-radius: 100px;
     background-color: #FF3E79;
-    background-image: url(/src/img/icons/checkstatus.svg);
+    background-image: url(./static/checkstatus.svg);
     background-position: center;
     background-repeat: no-repeat;
   }
@@ -548,7 +548,7 @@ body {
 .content__btn-next_btn-next-drop {
   height: 9px;
   width: 11px;
-  background-image: url(/src/img/helpers/dropdown.svg);
+  background-image: url(./static/dropdown.svg);
   background-position: center;
   background-repeat: no-repeat;
 }
@@ -811,7 +811,7 @@ body {
 .brands-menu__show-all_btn-next-drop {
   height: 9px;
   width: 11px;
-  background-image: url(/src/img/helpers/dropdown.svg);
+  background-image: url(./static/dropdown.svg);
   background-position: center;
   background-repeat: no-repeat;
 }
@@ -1075,7 +1075,7 @@ textarea {
   min-height: 40px;
   border: #FF3E79 solid 2px;
   border-radius: 100px;
-  background-image: url(/src/img/helpers/dropnext.svg);
+  background-image: url(./static/dropnext.svg);
   background-position: center;
   background-repeat: no-repeat;
   position: absolute;
@@ -1104,7 +1104,7 @@ textarea {
 .view-tech-menu__show-all_btn-next-drop {
   height: 9px;
   width: 11px;
-  background-image: url(/src/img/helpers/dropdown.svg);
+  background-image: url(./static/dropdown.svg);
   background-position: center;
   background-repeat: no-repeat;
 }
@@ -1283,7 +1283,7 @@ textarea {
   text-transform: uppercase;
   border-radius: 100px;
   background-color: #FF3E79;
-  background-image: url(/src/img/helpers/dropnextwhite.svg);
+  background-image: url(./static/dropnext.svg);
   background-repeat: no-repeat;
   background-position: 95px;
 }
@@ -1342,7 +1342,7 @@ textarea {
   height: 10px;
   width: 6px;
   padding-left: 25px;
-  background-image: url(/src/img/helpers/dropnext.svg);
+  background-image: url(./static/dropnext.svg);
   background-position: center;
   background-repeat: no-repeat;
 }
@@ -1374,7 +1374,7 @@ textarea {
 }
 @font-face {
   font-family: "TTLakes";
-  src: url(/src/fonts/TTLakes-Medium.ttf);
+  src: url(./fonts/TTLakes-Medium.ttf);
 }
 
 /*# sourceMappingURL=style.css.map*/
