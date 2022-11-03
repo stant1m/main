@@ -19,29 +19,25 @@ import "./img/brands/samsung.svg";
 import "./img/brands/apple.svg";
 
 // Img buttons
-import "./img/circle-icons/x.svg";
-import "./img/circle-icons/burger.svg";
-import "./img/circle-icons/call.svg";
-import "./img/circle-icons/chat.svg";
-import "./img/circle-icons/profile.svg";
-import "./img/circle-icons/repair.svg";
-import "./img/circle-icons/search.svg";
-import "./img/circle-icons/checkstatus.svg";
+import "./img/cons/x.svg";
+import "./img/icons/burger.svg";
+import "./img/icons/call.svg";
+import "./img/icons/chat.svg";
+import "./img/icons/profile.svg";
+import "./img/icons/repair.svg";
+import "./img/icons/search.svg";
+import "./img/icons/checkstatus.svg";
 
 // Img helpers
 import "./img/helpers/divider.svg";
 import "./img/helpers/highlight.svg";
-import "./img/helpers/arrow-down.svg";
-import "./img/helpers/arrow-up.svg";
-import "./img/helpers/more.svg";
-import "./img/helpers/go.svg";
-import "./img/helpers/button.svg";
+import "./img/helpers/dropnext.svg";
+import "./img/helpers/dropnextwhite.svg";
 import "./img/helpers/dropdown.svg";
 import "./img/helpers/expand.svg";
-import "./img/helpers/Group 10.svg";
 
 // Img logo
 import "./img/logo/logo.svg";
 
 // Img src
-import "./img/";
+import "./img/conten/contentimg.png";
