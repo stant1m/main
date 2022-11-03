@@ -164,7 +164,7 @@
       text-transform: uppercase;
       border-radius: 100px;
       background-color: #FF3E79;
-      background-image: url(/src/img/helpers/dropnextwhite.svg);
+      background-image: url(../img/helpers/dropnext.svg);
       background-repeat: no-repeat;
       background-position: 95px;
       @media (min-width: $screen-md) {
@@ -216,7 +216,7 @@
     height: 10px;
     width: 6px;
     padding-left: 25px;
-    background-image: url(/src/img/helpers/dropnext.svg);
+    background-image: url(../img/helpers/dropnext.svg);
     background-position: center;
     background-repeat: no-repeat;
   }

@@ -14,14 +14,14 @@ showAll.addEventListener("click", function (){
     brand9.style.display = "inline";
     brand10.style.display = "inline";
     brand11.style.display = "inline";
-    showAllBtn2.style.backgroundImage = "url('/src/img/helpers/expand.svg')";
+    showAllBtn2.style.backgroundImage = "url('../img/helpers/expand.svg')";
     showAlltext.innerHTML = "<p>Скрыть</p>"
     statusMenuOpenedBrand = false;
   } else {
     brand9.style.display = "none";
     brand10.style.display = "none";
     brand11.style.display = "none";
-    showAllBtn2.style.backgroundImage = "url('/src/img/helpers/dropdown.svg')";
+    showAllBtn2.style.backgroundImage = "url('../img/helpers/dropdown.svg')";
     showAlltext.innerHTML = "<p>Показать все</p>"
     statusMenuOpenedBrand = true;
   }
@@ -31,12 +31,12 @@ contentSelectorBnt.addEventListener("click", function (evt) {
   evt.preventDefault();
   if (statusContent){
     contentSelector.style.display = "inline";
-    showAllBtn.style.backgroundImage = "url('/src/img/helpers/expand.svg')";
+    showAllBtn.style.backgroundImage = "url('../img/helpers/expand.svg')";
     statusContent = false;
     contentsSelectorBtnText.innerHTML = "<a>Скрыть</a>"
   } else{
     contentSelector.style.display = "none";
-    showAllBtn.style.backgroundImage = "url('/src/img/helpers/dropdown.svg')";
+    showAllBtn.style.backgroundImage = "url('../img/helpers/dropdown.svg')";
     statusContent = true;
     contentsSelectorBtnText.innerHTML = "<a>Читать далее</a>"
   }

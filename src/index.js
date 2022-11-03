@@ -9,8 +9,8 @@ import "./js/action-btns.js";
 import './img/brands/lenovo.svg';
 import "./img/brands/samsung.svg";
 import "./img/brands/apple.svg";
-import './img/brands/viewsonic.svg';
-import "./img/brands/bosch.svg";
+import './img/brands/wievsonic.svg';
+import "./img/brands/bosh.svg";
 import "./img/brands/hp.svg";
 import "./img/brands/acer.svg";
 import "./img/brands/sony.svg";
@@ -19,9 +19,9 @@ import "./img/brands/samsung.svg";
 import "./img/brands/apple.svg";
 
 // Img buttons
-import "./img/cons/x.svg";
+import "./img/icons/x.svg";
 import "./img/icons/burger.svg";
-import "./img/icons/call.svg";
+import "./img/icons/phone.svg";
 import "./img/icons/chat.svg";
 import "./img/icons/profile.svg";
 import "./img/icons/repair.svg";
@@ -40,4 +40,4 @@ import "./img/helpers/expand.svg";
 import "./img/logo/logo.svg";
 
 // Img src
-import "./img/conten/contentimg.png";
+import "./img/content/contentimg.png";
