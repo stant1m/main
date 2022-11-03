@@ -335,7 +335,7 @@ body {
   border: #FF3E79 solid 2px;
   border-radius: 100px;
   background-color: #FF3E79;
-  background-image: url(/src/img/icons/search.svg);
+  background-image: url(./static/search.svg);
   background-position: center;
   background-repeat: no-repeat;
 }
@@ -347,7 +347,7 @@ body {
   border: #FF3E79 solid 2px;
   border-radius: 100px;
   background-color: #FF3E79;
-  background-image: url(/src/img/icons/x.svg);
+  background-image: url(./static/x.svg);
   background-position: center;
   background-repeat: no-repeat;
 }
@@ -379,7 +379,7 @@ body {
   width: 4px;
   height: 32px;
   margin-right: 24px;
-  background-image: url(/src/img/helpers/highlight.svg);
+  background-image: url(./static/highlight.svg);
   content: "";
   z-index: 5;
   left: 0;
@@ -437,7 +437,7 @@ body {
   border: #FF3E79 solid 2px;
   border-radius: 100px;
   background-color: #FF3E79;
-  background-image: url(/src/img/icons/phone.svg);
+  background-image: url(./static/phone.svg);
   background-position: center;
   background-repeat: no-repeat;
 }
@@ -449,7 +449,7 @@ body {
   border: #FF3E79 solid 2px;
   border-radius: 100px;
   background-color: #FF3E79;
-  background-image: url(/src/img/icons/chat.svg);
+  background-image: url(./static/chat.svg);
   background-position: center;
   background-repeat: no-repeat;
 }
@@ -461,7 +461,7 @@ body {
   border: #FF3E79 solid 2px;
   border-radius: 100px;
   background-color: #FF3E79;
-  background-image: url(/src/img/icons/profile.svg);
+  background-image: url(./static/profile.svg);
   background-position: center;
   background-repeat: no-repeat;
 }
