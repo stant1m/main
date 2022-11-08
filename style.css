@@ -18,6 +18,12 @@ body {
   background: #F8F8F8;
 }
 
+.disableScroll {
+  position: relative;
+  overflow: hidden;
+  height: 100vh;
+}
+
 @media (min-width: 320px) {
   .header {
     width: 320px;
@@ -296,6 +302,10 @@ body {
   z-index: 149;
   display: none;
   background-color: white;
+  -webkit-animation-name: animate;
+          animation-name: animate;
+  -webkit-animation-duration: 0.5s;
+          animation-duration: 0.5s;
 }
 @media (min-width: 1440px) {
   .mobile-menu-main-container {
@@ -306,6 +316,27 @@ body {
   }
 }
 
+@-webkit-keyframes animate {
+  from {
+    top: -320px;
+    opacity: 0;
+  }
+  to {
+    top: 0;
+    opacity: 1;
+  }
+}
+
+@keyframes animate {
+  from {
+    top: -320px;
+    opacity: 0;
+  }
+  to {
+    top: 0;
+    opacity: 1;
+  }
+}
 ::-webkit-scrollbar {
   width: 0;
 }
@@ -527,6 +558,7 @@ body {
   text-decoration: none;
   color: #1B1C21;
   font-weight: 500;
+  margin-left: 5px;
 }
 
 .content__text {
@@ -551,6 +583,10 @@ body {
   background-image: url(./static/dropdown.svg);
   background-position: center;
   background-repeat: no-repeat;
+}
+
+.content__btn-next_btn-next-up {
+  background-image: url(./static/expand.svg);
 }
 
 .content__img {
@@ -816,6 +852,10 @@ body {
   background-repeat: no-repeat;
 }
 
+.brands-menu__show-all_btn-next-up {
+  background-image: url(./static/expand.svg);
+}
+
 @media (min-width: 768px) {
   .swiper-wrapper {
     flex-wrap: wrap;
@@ -860,6 +900,10 @@ body {
   box-shadow: rgba(0, 0, 0, 0.5) 0 0 0 1200px;
   top: 0;
   right: 0;
+  -webkit-animation-name: animate;
+          animation-name: animate;
+  -webkit-animation-duration: 0.5s;
+          animation-duration: 0.5s;
 }
 @media (min-width: 1440px) {
   .modal__callback,
@@ -873,6 +917,16 @@ body {
   }
 }
 
+@keyframes animate {
+  from {
+    top: -320px;
+    opacity: 0;
+  }
+  to {
+    top: 0;
+    opacity: 1;
+  }
+}
 .modal__content {
   margin-left: 16px;
   margin-right: 16px;
@@ -914,6 +968,30 @@ textarea {
 .modal__btn {
   text-align: right;
   margin-top: 20px;
+}
+.modal__btn a:hover {
+  transition-duration: 1s;
+  filter: opacity(50%);
+}
+
+.modal-send {
+  display: inline-block;
+  width: 136px;
+  height: 32px;
+  color: white;
+  font-size: 12px;
+  text-transform: uppercase;
+  border-radius: 100px;
+  background-color: #FF3E79;
+  background-image: url(./static/dropnextwhite.svg);
+  background-repeat: no-repeat;
+  background-position: 110px;
+}
+
+.modal__btn-text {
+  display: block;
+  padding-right: 40px;
+  padding-top: 8px;
 }
 
 .modal__callback ul li:first-child,
